@@ -107,6 +107,7 @@ PHPMailer is bundled in `PHPMailer/`. If you plan to send emails (e.g., password
 ## 🧪 Demo & Test Data
 - Sample pages available under `view/` (home, products, blog, account, cart/checkout).
 - Use DB dump `suruchi_book_db.sql` to preload sample content.
+- Video demo: https://youtu.be/qJuJwQpG8ZM
 
 ## 🧱 Modular Design
 - **Models** in `model/` encapsulate DB access (reusable PDO helpers).
@@ -121,18 +122,6 @@ PHPMailer is bundled in `PHPMailer/`. If you plan to send emails (e.g., password
 - Login: `/index.php?pg=signin-signup`
 - Forgot Password: `/index.php?pg=forgot-password`
 
-## 📁 Documents
-If you keep design docs, place them under `documents/`:
-```
-documents/
-├── project_report.pdf
-└── software_design.pdf
-```
 
-## 🙌 Credits
-- **PHPMailer** – email sending library (bundled).  
-- SCSS/Bootstrap‑style partials under `scss/` for theme styling.
-
----
 
 > If you need a **minimal admin guide** (add/edit products, categories, orders), or want me to extract **ERD** from `suruchi_book_db.sql`, tell me and I’ll add those sections.
